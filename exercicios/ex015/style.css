@@ -1,0 +1,18 @@
+@charset "utf-s";
+        body{
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px; 
+        }
+        h1{
+            color:maroon;
+            background-color:beige;
+        }
+        h2{
+            color: red;
+        }
+        p{
+            text-align: justify;
+        }
+
+    
