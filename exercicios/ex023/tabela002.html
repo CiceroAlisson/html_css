@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 100%; /* Alterei para 100% para que a largura da tabela seja adaptável */
+            border-collapse: collapse; /* Combinação de bordas das células */
+        }
+        td, th {
+            border: 1px solid black; /* Corrigido para 1px solid black para definir cor e estilo da borda */
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>São Paulo</td>
+            <td class="num">45000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habtantes</th>
+                <td class="num">45000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
