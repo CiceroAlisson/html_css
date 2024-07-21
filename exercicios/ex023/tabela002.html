@@ -11,6 +11,7 @@
         table {
             width: 100%; /* Largura total da tabela */
             border-collapse: collapse; /* Combinação de bordas das células */
+            position: relative;
         }
         td, th {
             border: 1px solid black; /* Borda preta com 1px de espessura */
@@ -20,6 +21,11 @@
             background-color: gray; /* Fundo cinza para cabeçalho e rodapé */
             color: white; /* Texto branco para contraste */
             text-align: left; /* Alinhamento do texto à esquerda */
+        }
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         td.num {
             text-align: right; /* Alinha números à direita nas células */
